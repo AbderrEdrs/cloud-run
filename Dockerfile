@@ -4,5 +4,5 @@ FROM node:12.4
 WORKDIR /app
 # Add our sourcecode
 ADD . /app
-# The command to start our container
+# The command to start our node container 
 CMD node server.js
